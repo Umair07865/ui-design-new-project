@@ -1,0 +1,342 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(34, 34, 34);
+    color: white;
+}
+
+
+/*Nav Bar css starts here*/
+.navBar{
+    background-color: rgb(34, 34, 34);
+    box-shadow: black 0px 2px 3px -2px;
+}
+.logo{
+    height: 2rem;
+    width: 10rem;
+}
+.iconss{
+    font-size: 1.3rem;
+}
+/* #navbarSupportedContent{
+    border: 1px solid rgb(253, 253, 253);
+} */
+.registrationBtn{
+    width: 12rem;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(189, 240, 88);
+
+}
+.List{
+    gap: 3rem;
+}
+.JoinNowBtn{
+    width: 9rem;
+}
+/*Navbar css ends here*/
+
+/*Grid system css starts from here*/
+
+.OuterWrapper{
+    /* border: 1px solid rgb(233, 12, 12); */
+    width: 80% !important;
+    margin: auto;
+    height: 100%;
+   
+}
+.innerLeftDiv{
+    /* border: 1px solid rgb(35, 191, 77); */
+    /* height: 115vh; */
+    height: 100%;
+    text-align: center;
+}
+.innerRightDiv{
+    /* border: 1px solid rgb(0, 0, 0); */
+    height: 100%;
+    
+   
+   
+}
+.ProfilePic{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    margin-top: 5rem;
+  
+}
+.btns{
+    border-radius: 10px;
+    width: 9rem;
+    height: 3rem;
+    background-color: rgb(189, 240, 88);
+    border: none;
+}
+.Header1{
+    height: 3rem;
+    padding: 0 1rem ;
+ 
+  
+  
+    background-color: rgb(54, 54, 54);
+}
+/* .innerWrapper{
+    border: 1px solid white;
+} */
+.toggleBtn{
+    color: rgb(189, 240, 88);
+    font-size: 2rem;
+   
+}
+h6{
+    font-size: 15px;
+}
+.btnLogOut{
+    height: 2.5rem;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    background-color: rgb(189, 240, 88);
+}
+/*Right Div CSS starts here*/
+.RightDivWrapper{
+    /* border: 1px solid orange; */
+    border-radius: 5% 5% 0 0;
+    height: fit-content;
+    background-color: rgb(54, 54, 54);
+     
+}
+.RightDivWrapper > div{
+    /* border: 1px solid white; */
+    height: 100%;
+
+}
+.WrapperDivLeft{
+    width: 40%;
+
+}
+.WrapperDivRight{
+    width: 60%;
+    border-radius: 5% 5% 0 0;
+    margin-left: 5rem;
+   
+        background-image: url("./assets/1.jpg");
+   
+  
+     
+    background-position: center;
+    background-size: contain;
+}
+.searchbarWrapper2{
+   
+    background-color: rgb(34, 34, 34);
+    border-radius: 10px;
+    height: 3.5rem;
+   
+}
+table{
+    border-bottom: 1px solid rgb(242, 237, 237);
+    width: 100%;
+
+    height: 4rem;
+}
+table tr td{
+    /* border: 1px solid white; */
+    font-size: 13px;
+}
+.span1{
+    font-size: 1rem;
+}
+.profilePicture{
+  
+    border-radius: 50%;
+    height: 3rem;
+    
+    width: 3rem;
+}
+
+/*Right Div CSS ends here*/
+.headerInner{
+    height: 4rem;
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+}
+.profileTop{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+}
+
+/*Chats wrappeer css starts here*/
+.chatWrapper{
+    /* border: 1px solid black; */
+    width: 100%;
+    margin: auto;
+    height: 85%;
+    overflow-y: scroll;
+    background: transparent;
+
+}
+#message{
+    height: 100%;
+    width: 90%;
+    background-color: transparent;
+    border: none;
+    color: white;
+   
+    border-radius: 15px;
+   
+    
+}
+.messageWrapper{
+    
+    height: 3rem;
+    background-color: rgb(54, 54, 54);
+    /* width: 28rem; */
+    width: 90%;
+    margin-top: 1rem;
+    margin-bottom: 2rem !important;
+    margin: auto;
+    border-radius: 15px;
+    position: sticky;
+    top: 80%;
+    z-index: 2;
+   
+}
+
+/*Chat wrapper css ends here*/
+/*chats css starts here*/
+
+.chat1{
+    background-color: white;
+    color: black;
+    width: fit-content;
+    border-radius: 15px 15px 15px 0;
+}
+.chat1 span{
+    font-size: 10px;
+
+}
+ ul{
+    list-style: none;
+
+}
+
+.chat2{
+    color: white;
+    border-radius: 15px  15px 0 15px ;
+    background-color: rgb(189, 240, 88);
+   
+    
+}
+.chat2 span{
+    margin-left: 80%;
+  
+}
+.reply{
+    border-left: 5px solid rgb(189, 240, 88); 
+    height: 3rem;
+    background-color: rgb(233, 233, 233);
+}
+.reply span{
+    color: rgb(189, 240, 88);
+}
+.chatImg{
+    height: 6rem;
+    background-image: url("https://i.ytimg.com/vi/8sm23e0a5_w/maxresdefault.jpg");
+    background-position: center;
+    background-size: contain;
+
+}
+/*chats css ends here*/
+
+/*right chat section css starts here*/
+
+/*responsive ness implimentation*/
+@media (max-width:1025px)
+{
+    .searchbarWrapper{
+    margin-left: 0 !important;
+    }
+    .registrationBtn{
+        width: 6rem;
+        font-size: small;
+    }
+    .JoinNowBtn{
+        width: 6rem;
+        font-size: small;
+
+    }
+    .List{
+        gap: 1 !important;
+    }
+    .navBar{
+        padding-left: 0;
+    }
+    .navBar ul li a{
+        font-size: small;
+    }
+    .OuterWrapper{
+        width: 90% !important;
+
+
+    }
+    .span1{
+        font-size: 0.5rem;
+    }
+    h6{
+        font-size: 10px;
+    }
+    h4{
+        font-size: 1rem;
+    }
+    .btns{
+        width: 8rem;
+        height: 2rem;
+        font-size: 10px;
+    }
+    .ProfilePic{
+        height: 5rem;
+        width: 5rem;
+    }
+    table tr td{
+        font-size: 9px;
+    }
+}
+@media (max-width:768px) {
+    .span1{
+        font-size: 0.9rem;
+    }
+    .messageWrapper{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+       
+
+    }
+    
+}
+@media (max-width:425px) {
+    .RightDivWrapper{
+        flex-direction: column;
+    }
+    .WrapperDivLeft{
+        width: 100%;
+    }
+    .WrapperDivRight{
+        width: 100%;
+    }
+    .RightDivWrapper{
+        height: fit-content;
+        border-radius: 15px 15px 0 0;
+    }
+    #navbarSupportedContent{
+        margin: 1rem 0 !important;
+    }
+ 
+    
+}
